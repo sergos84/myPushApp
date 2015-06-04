@@ -9,9 +9,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ionic.service.core',
   // Identify app
   $ionicAppProvider.identify({
     // Your App ID
-    app_id: '4fe5371f',
+    app_id: '768679c8',
     // The public API key services will use for this app
-    api_key: '823492e13842d99a99a32da200c368d26d3f1a5a2671c294',
+    api_key: '89415e5d1262e574a2359dfb4e00db9a3449364b1d7e98c0',
     // Your GCM sender ID/project number (Uncomment if supporting Android)
     gcm_id: '396633983582'
   });
