@@ -19,6 +19,11 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+
+  <!-- Allow links to ionic.io -->
+  <allow-navigation href="https://apps.ionic.io/*" />
+  <allow-navigation href="https://push.ionic.io/*" />
+
   <platform name="android">
     <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
     <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
